@@ -1,0 +1,35 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+   } 
+
+#pestana1 ul { 
+    padding: 3px 0px 3px 20px; 
+    border-bottom: 1px solid #000;   
+} 
+
+#pestana1 ul li {
+    display: inline;
+    list-style: none;
+}
+
+#pestana1 ul li a { 
+    font-weight: bold; 
+    padding: 3px 0.5em; 
+    margin-right: 5px; 
+    border: 1px solid #900;  border-bottom: none;  background-color: #F0E0C0;  color: #900; 
+    text-decoration: none; 
+} 
+
+#pestana1 ul li a:hover { 
+    background-color: #B0A080;  color: #fff; 
+    border-color: #000; 
+}
+
+#pestana1 ul li a.aktiv, #pestana1 ul li a.aktiv:hover {  background-color: #fff;  color: #777; 
+       border: 1px solid #000;  border-bottom: 1px solid #fff;  cursor: default; 
+}
+
+p h1{ 
+    font-size: 24px; 
+}
